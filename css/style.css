@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+  max-width: 60%;
+  margin: 20px auto;
+}
+
+
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.blue{
+  color: blue;
+}
+.upper{
+  text-transform: uppercase;
+}
+.italic{
+  font-style: italic;
+}
+.under{
+  text-decoration: underline;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+
+.custom-container{
+  background-color: pink; 
+  font-size:0.8rem; 
+  padding: 1rem; 
+  border: 1px dotted black;
+}
+
+button{
+  padding: 5px 10px;
+}
